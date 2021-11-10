@@ -1,0 +1,98 @@
+* {  
+     margin: 0;  
+     padding: 0;  
+     box-sizing: border-box; 
+ }
+ .insta {  
+     width: 250px;  
+     height: 250px;  
+     background: #d6249f;
+     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+     border-radius: 35px;  
+     display: grid;  
+     place-items: center;  
+ } 
+ .innerbox {  
+     width: 220px;  
+     height: 220px;  
+     border: 10px solid #fff;  
+     border-radius: 32px;  
+     display: grid;  
+     place-items: center;  
+     position: relative;  
+ }
+ .innerbox::before {  
+     content: '';  
+     width: 145px;  
+     height: 145px;  
+     border: 10px solid #fff;  
+     border-radius: 50%;  
+     background: transparent;  
+     position: absolute;  
+ }  
+ .innerbox::after {  
+     content: '';  
+     width: 25px;  
+     height: 25px;  
+     border: 2px solid #fff;  
+     border-radius: 50%;  
+     background: #fff;  
+     position: absolute;  
+     top: 8px;  
+     right: 10px;  
+ }  
+
+
+ .body2 {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ * {  
+     margin-right: 0;  
+     padding: 0;  
+     box-sizing: border-box;
+     flex-direction: column; 
+ }
+ .insta2 {  
+     width: 250px;  
+     height: 250px;  
+     background: #ff0000;
+     border-radius:35px;  
+     display: grid;  
+     place-items: center;
+   
+ } 
+ img {
+     position: absolute;  
+     left: 27px;
+    top: 262px; 
+ }
+ .innerbox2 {  
+     width: 220px;  
+     height: 220px;  
+     border: 10px solid #fff;  
+     border-radius: 32px;  
+     display: grid;  
+     place-items: center;  
+     position: relative;  
+ }
+ .innerbox2::before {  
+     content: '';  
+     width: 145px;  
+     height: 145px;  
+     border: 15px solid #fff;  
+     border-radius: 50%;  
+     background: transparent;  
+     position: absolute;  
+ }  
+ .innerbox2::after {  
+     content: '';  
+     width: 25px;  
+     height: 25px;  
+     border: 2px solid #fff;  
+     border-radius: 50%;  
+     background: #fff;  
+     position: absolute;  
+     top: 8px;  
+     right: 10px;  
+ } 
